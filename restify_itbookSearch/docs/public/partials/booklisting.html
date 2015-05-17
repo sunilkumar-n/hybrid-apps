@@ -1,0 +1,26 @@
+<form id="searchForm">
+	<div class="formcontent">
+		 <div class="form-group">
+			<input type="text" class="form-control" id="searchString" ng-model="bookSearch.queryText" placeholder="ex: javascript, oracle" required>
+		</div>
+		 <div class="form-group">
+			<button type="button" class="btn btn-search" ng-click="callBookAPI()">Search</button>
+		</div>				
+	</div>
+</form>
+<div class="bookListing">
+		<div class="row bookDiv" ng-repeat="book in bookList">
+			<div class="col-sm-4 col-xs-4 resetPadding">
+				<div class="bookimg">
+				<img alt="" ng-src="{{book.Image}}" class="img-rounded img-responsive"/>
+				</div>
+			</div>
+			<div class="col-sm-8 col-xs-8 resetPadding">
+				<h2>{{book.Title}}</h2>
+				<p>{{book.Description}}</p>
+				<div class="moreBtn">
+					<button type="button" class="btn btn-sm btn-search" ng-click="getBookDetailsByID(book.ID)">More..</button>
+				</div>
+			</div>
+		</div>
+</div>

@@ -1,0 +1,163 @@
+*{
+ margin:0;
+ padding:0;
+}
+
+body,html{
+ margin:0;
+ padding:0;
+}
+
+.container-fluid{
+	position: relative;
+	margin:0;
+	padding:0;
+}
+.rowpadding{
+	padding: 10px 0 0 0;	
+}
+
+.container-fluid header{
+	height: 40px;
+	background-color: #582566;
+}
+
+.container-fluid header h1{
+	font-size: 24px;
+	color: #FFF;
+	line-height: 40px;
+	vertical-align: middle;
+	padding-left:10px; 
+	margin:0;
+}
+
+.formcontent{
+	margin:0 10px;
+}
+#searchForm button{
+	width:100%;
+	font-size:18px;
+}
+
+#searchForm .form-group{
+	padding-top:10px;
+	margin:0;
+}
+
+#searchForm input{
+    height:40px;
+}
+#searchForm  .btn-search{
+	color:#fff;
+	background-color:#962057;
+	border-color:#C47E9F
+}
+
+.contentBg{
+	position:fixed;
+	top:40px;
+	left:0;
+	right:0;
+	bottom:0;
+	background:#D3C9D6;
+	height:100%;
+}
+
+.resetPadding{
+	padding:0 10px;
+}
+.bookDiv{
+	margin: 10px;
+	border: 1px solid #CCC;
+	box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.69);
+	background:#FFF;
+}
+
+.bookDetailsDiv{
+	margin: 10px;
+	border: 1px solid #CCC;
+	box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.69);
+	background:#FFF;
+	padding:10px;
+	position:relative;
+	height:100%;
+	overflow:auto;
+}
+
+.bookListing{
+	position:relative;
+	height:100%;
+	overflow:auto;
+}
+
+.bookListing h2{
+	font-size: 20px;
+	margin: 0;
+	padding:0;
+	color:#582566;
+}
+.bookListing .bookimg{
+	padding:10px 0;
+}
+.bookListing .moreBtn{
+	padding:0 10px;
+}
+
+.moreBtn .btn-search{
+	color:#fff;
+	background-color:#962057;
+	border-color:#C47E9F
+}
+
+.bookListing p{
+    font-size:12px;
+	color:#B3AFB1;
+}
+
+.spinner{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -20px;
+	margin-left: -20px;
+}
+
+.bookDetailsDiv h1{
+	font-size: 24px;
+	margin: 0;
+	padding:0 15px;
+	color:#582566;
+}
+
+.bookDetailsDiv .authorLbl{
+	padding:10px 15px;
+	margin:0;
+	color:#A3A2A2;
+	font-size:12px;
+}
+
+.bookDetailsDiv .label{
+	color:#A3A2A2;
+	font-size:16px;
+	font-weight:bold;
+	padding:5px 10px;
+}
+
+.bookDetailsDiv .value{
+	color:#A3A2A2;
+	font-size:12px;
+	padding:5px 10px;
+}
+
+.bookDetailsDiv .bookDesc{
+	color:#A3A2A2;
+	font-size:12px;
+}
+
+
+@media screen and (max-width: 1024px) {
+   .container-fluid{
+		margin:0;
+		padding:0;
+	}
+}

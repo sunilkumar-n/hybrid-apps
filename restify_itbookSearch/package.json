@@ -1,0 +1,11 @@
+{
+  "name": "bookSearch",
+  "version": "1.0.0",
+  "description": "simple restify app to search books using http://it-ebooks-api.info API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sunil kumar <sunil.nagarajappa@slk-soft.com>",
+  "license": "ISC"
+}

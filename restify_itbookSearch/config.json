@@ -1,0 +1,13 @@
+{
+    "_comments": [
+        "This file is where you configure the server options"
+    ],
+
+    "debug": true,
+    "debugFullRequest": false,
+
+    "server": {
+        "port": 3000,
+        "address": "localhost"
+    },
+}

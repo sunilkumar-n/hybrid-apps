@@ -1,0 +1,31 @@
+<div class="row bookDetailsDiv" style="padding: 10px;">
+	<div class="row">
+		<h1>{{book.Title}}</h1>
+		<p class="authorLbl">By: {{book.Author}}</p>
+		
+		<div class="col-md-4">
+			<img alt="" ng-src="{{book.Image}}" class="img-responsive"/>
+		</div>
+		<div class="col-md-8">
+			<div class="label">SubTitle</div>
+			<div class="value">{{book.SubTitle}}</div>
+			
+			<div class="label">Year</div>
+			<div class="value">{{book.Year}}</div>
+			
+			<div class="label">Page</div>
+			<div class="value">{{book.Page}}</div>
+			
+			<div class="label">Publisher</div>
+			<div class="value">{{book.Publisher}}</div>
+		</div>	
+	</div>
+	<div class="row" style="padding:0 15px">
+		<p class="bookDesc"><span style="font-weight:bold">Description :</span>{{book.Description}}</p>
+		<div>
+			<a href="{{book.Download}}" target="_blank"><button type="button" class="btn btn-success">Download this book</button></a> 
+		</div>
+	</div>
+	
+
+</div>
